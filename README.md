@@ -18,7 +18,7 @@ optional arguments:
 ```
 
 ```text
-$ ./yarn.py --status RUNNING --status KILLED --head 20
+$ ./yarn.py --status RUNNING --status KILLED --head 15
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | ID                             | Name                      | State      | User       | Type       | Start               | Duration        |
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -37,6 +37,5 @@ $ ./yarn.py --status RUNNING --status KILLED --head 20
 | application_1642565008363_0337 | CMYarnUsageAggregation    | KILLED     | mnguser    | MAPREDUCE  | 2022-01-27 05:06:42 | 0:45:01         |
 | application_1642565008363_0336 | CMYarnUsageAggregation    | KILLED     | mnguser    | MAPREDUCE  | 2022-01-27 04:06:42 | 0:45:02         |
 | application_1642565008363_0335 | CMYarnUsageAggregation    | KILLED     | mnguser    | MAPREDUCE  | 2022-01-27 03:06:42 | 0:45:01         |
-| application_1642565008363_0334 | CMYarnUsageAggregation    | KILLED     | mnguser    | MAPREDUCE  | 2022-01-27 02:06:42 | 0:45:01         |
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ```
